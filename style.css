@@ -1,26 +1,13 @@
-@font-face {
-  font-family: "Atami";
-  src: url("./assets/Atami/Atami-Regular.otf");
-  src: url("./assets/Atami/Atami-Bold.otf") format("opentype"),
-    url("./assets/Atami/Atami-Display-Bold.otf") format("opentype"),
-    url("./assets/Atami/Atami-Display-Regular.otf") format("opentype"),
-    url("./assets/Atami/Atami-Stencil-Bold.otf") format("opentype"),
-    url("./assets/Atami/Atami-Stencil.otf") format("opentype");
-}
-
 html {
   --purple-light: ##BB7CE5;
   --purple-regular: #9445CA;
   --purple-dark: #2E1938;
   --yellow-light: #FFE367;
   --yellow-dark: #F3C700;
-  /* background-color: var(--purple-dark); */
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23bb7ce5' fill-opacity='0.4'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-  /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23ffe367' fill-opacity='0.4'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); */
-  /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='var(--yellow-dark)' fill-opacity='0.4'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); */
   background-position: center fixed;
   color: var(--purple-regular);
-  font-family: 'Arial';
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -29,7 +16,6 @@ body {
 
 .hero {
   background: var(--purple-dark);
-  /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23ffe367' fill-opacity='0.4'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); */
   background-position: center fixed;
   color: white;
   height: 10rem;
@@ -42,7 +28,7 @@ body {
 }
 .hero > .header {
   color: white;
-  font-family: 'Atami';
+  margin-right: 1rem;
 }
 
 .hero-logo {
