@@ -26,9 +26,13 @@ body {
   align-items: center;
   text-align: center;
 }
+
 .hero > .header {
-  color: white;
   margin-right: 1rem;
+}
+
+.hero-header-link {
+  color: white;
 }
 
 .hero-logo {
