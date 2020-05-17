@@ -78,8 +78,7 @@ body {
 }
 
 .separator {
-  
-  border: 0.5px solid  var(--purple-dark);
+  border-top: 1px solid  var(--purple-dark);
   width: 100%;
   margin: 3rem 0;
 }
