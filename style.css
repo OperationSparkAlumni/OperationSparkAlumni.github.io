@@ -77,6 +77,13 @@ body {
   height: 5rem;
 }
 
+.separator {
+  
+  border: 0.5px solid  var(--purple-dark);
+  width: 100%;
+  margin: 3rem 0;
+}
+
 @media only screen and (max-width: 800px) {
   .section {
     margin: 0 5rem;
